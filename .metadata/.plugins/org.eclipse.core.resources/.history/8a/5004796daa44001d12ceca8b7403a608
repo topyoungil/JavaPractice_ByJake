@@ -1,0 +1,31 @@
+package algo_221005.day1_1005;
+
+public class Main {
+
+		
+	
+	
+	
+	
+		int a = 1, b = 1, c;
+		
+		System.out.print(a + " " + b + " ");
+		
+		for (int i = 2; i < n; i++)
+		{
+			c = a + b;
+			System.out.print(c + " ");
+			
+		}
+		
+		
+		
+		
+	public static void main(String[] args) {
+		
+		
+		
+
+	}
+
+}

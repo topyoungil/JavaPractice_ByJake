@@ -1,0 +1,46 @@
+package algo_221005.day1_1005;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Day1 {
+	
+	// 1. 큰 수 출력하기
+	public ArrayList<Integer> solution(int n, int[] arr) {
+
+		ArrayList<Integer> answer = new ArrayList<Integer>();
+		
+		answer.add(arr[0]);
+		
+		for (int i = 1; i < n; i++)
+			if (arr[i] > arr[i-1])
+				answer.add(arr[i]);
+		
+		return answer;
+	}
+	
+	// 2. 보이는 학생
+	
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+		Day1 d1 = new Day1();
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int n = sc.nextInt();
+		
+		int[] arr = new int[n];
+		
+		for (int i = 0; i < n; i++)
+			arr[i] = sc.nextInt();
+
+		System.out.print(d1.solution(n, arr));
+	
+	}
+
+}
