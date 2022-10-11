@@ -23,7 +23,5 @@ class Main {
 			arr[i]=kb.nextInt();
 		}
 		System.out.print(T.solution(n, k, arr));
-	}
-	
-	
+	}	
 }
