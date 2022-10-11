@@ -24,4 +24,6 @@ class Main {
 		}
 		System.out.print(T.solution(n, k, arr));
 	}
+	
+	
 }
