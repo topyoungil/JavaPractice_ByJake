@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Day2 {
-	
+	  
 	// 7. 두 배열 합치기
 	public ArrayList<Integer> solution07_01 (int n, int m, int[] a, int[] b)
 	{
@@ -93,6 +93,7 @@ public class Day2 {
 			arr[i] = sc.nextInt();
 		
 		System.out.print(d2.solution10_01(n, k, arr));
+		System.out.println("rwerwer");
 	}
 
 }
